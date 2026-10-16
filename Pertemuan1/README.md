@@ -5,13 +5,13 @@ Proyek ini merupakan aplikasi berbasis **Compose Multiplatform (KMP)** untuk mem
 ## Tema 17
 - **Nama Tema:** Peminjaman Buku Perpustakaan
 
-## 👥 Anggota Kelompok
+## Anggota Kelompok
 - **Nafisya Ghalia** - `124140100`
 - **Frichintia Niken Gita Ntasyah** - `124140106`
 - **Olivia** - `124140034`
 - **Fadilla Andia Putri** - `124140136`
 
-## 💻 Deskripsi & Fitur Checkpoint 1
+## Deskripsi & Fitur Checkpoint 1
 - **Judul Tema:** Menampilkan nama tema "Peminjaman Buku Perpustakaan" pada layar utama aplikasi
 - **Informasi Anggota:** Menampilkan daftar nama dan NIM anggota kelompok di dalam aplikasi
 - **Platform:** Dibuat menggunakan template Compose Multiplatform.
