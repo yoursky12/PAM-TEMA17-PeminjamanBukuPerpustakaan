@@ -1,31 +1,22 @@
-This is a Kotlin Multiplatform project targeting Android, iOS.
+# Peminjaman Buku Perpustakaan
 
-* [/iosApp](./iosApp/iosApp) contains an iOS application. Even if you’re sharing your UI with Compose Multiplatform,
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+Proyek ini merupakan aplikasi berbasis **Compose Multiplatform (KMP)** untuk memenuhi tugas **Checkpoint Proyek Minggu 1**.
 
-* [/shared](./shared/src) is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - [commonMain](./shared/src/commonMain/kotlin) is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    the [iosMain](./shared/src/iosMain/kotlin) folder would be the right place for such calls.
-    Similarly, if you want to edit the Desktop (JVM) specific part, the [jvmMain](./shared/src/jvmMain/kotlin)
-    folder is the appropriate location.
+## Tema 17
+- **Nama Tema:** Peminjaman Buku Perpustakaan
 
-### Running the apps
+## 👥 Anggota Kelompok
+- **Nafisya Ghalia** - `124140100`
+- **Frichintia Niken Gita Ntasyah** - `124140106`
+- **Olivia** - `124140034`
+- **Fadilla Andia Putri** - `124140136`
 
-Use the run configurations provided by the run widget in your IDE's toolbar. You can also use these commands and options:
+## 💻 Deskripsi & Fitur Checkpoint 1
+- **Judul Tema:** Menampilkan nama tema "Peminjaman Buku Perpustakaan" pada layar utama aplikasi
+- **Informasi Anggota:** Menampilkan daftar nama dan NIM anggota kelompok di dalam aplikasi
+- **Platform:** Dibuat menggunakan template Compose Multiplatform.
 
-- Android app: `./gradlew :androidApp:assembleDebug`
-- iOS app: open the [/iosApp](./iosApp) directory in Xcode and run it from there.
-
-### Running tests
-
-Use the run button in your IDE's editor gutter, or run tests using Gradle tasks:
-
-- Android tests: `./gradlew :shared:testAndroidHostTest`
-- iOS tests: `./gradlew :shared:iosSimulatorArm64Test`
+<img width="184" height="377" alt="image" src="https://github.com/user-attachments/assets/d0dd6a56-47ed-4bf9-b364-0716d0481a00" />
 
 ---
-
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+*Disusun untuk pengumpulan Checkpoint Proyek Minggu 1*
