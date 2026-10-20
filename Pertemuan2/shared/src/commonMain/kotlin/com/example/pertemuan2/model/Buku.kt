@@ -8,6 +8,6 @@ data class Buku(
 )
 
 object SampleBuku {
-    val bukuKotlin = Buku("B001", "Pemrograman Kotlin Multiplatform", "John Doe", "Informatika")
+    val bukuNovel = Buku("B001", "Janji", "Tere Liye", "Gramedia")
     val bukuAlgoritma = Buku("B002", "Struktur Data & Algoritma", "Jane Smith", "Tekno Press")
 }
