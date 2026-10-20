@@ -20,7 +20,7 @@ dependencies {
 }
 
 android {
-    namespace = "com.example.pertemuan1"
+    namespace = "com.example.pertemuan2"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {

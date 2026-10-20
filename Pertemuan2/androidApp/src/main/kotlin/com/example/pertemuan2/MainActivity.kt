@@ -1,4 +1,4 @@
-package com.example.pertemuan1
+package com.example.pertemuan2
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

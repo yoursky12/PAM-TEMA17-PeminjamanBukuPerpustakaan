@@ -25,4 +25,5 @@ Repositori ini berisi pengerjaan proyek tugas mata kuliah **Pengembangan Aplikas
 ```text
 PAM-TEMA17-PeminjamanBukuPerpustakaan/
 ├── Pertemuan1/       # Modul pengerjaan Checkpoint Minggu 1
+├── Pertemuan2/       # Modul pengerjaan Checkpoint Minggu 2
 └── README.md         # Dokumentasi utama repositori

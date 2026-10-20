@@ -3,9 +3,10 @@ package repository
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
-import model.Peminjaman
-import model.SampleBuku
-import model.StatusPeminjaman
+import com.example.pertemuan2.model.Peminjaman
+import com.example.pertemuan2.model.SampleBuku
+import com.example.pertemuan2.model.StatusPeminjaman
+import com.example.pertemuan2.repository.PeminjamanDataSource
 
 class FakePeminjamanDataSource : PeminjamanDataSource {
     override fun getPeminjamanStatusFlow(): Flow<Peminjaman> = flow {

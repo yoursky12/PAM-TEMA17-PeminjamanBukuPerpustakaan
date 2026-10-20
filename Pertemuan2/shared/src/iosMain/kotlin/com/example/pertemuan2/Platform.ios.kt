@@ -1,4 +1,4 @@
-package com.example.pertemuan1
+package com.example.pertemuan2
 
 import platform.UIKit.UIDevice
 
