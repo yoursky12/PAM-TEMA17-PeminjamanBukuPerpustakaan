@@ -1,4 +1,4 @@
-package com.example.pertemuan2.model
+package com.example.pertemuan3.model
 
 data class Peminjaman(
     val idPeminjaman: String,

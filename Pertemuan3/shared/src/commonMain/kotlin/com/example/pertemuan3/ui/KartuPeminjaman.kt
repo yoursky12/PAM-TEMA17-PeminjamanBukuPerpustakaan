@@ -3,7 +3,7 @@ package com.example.pertemuan3.ui
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.*
+import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -37,8 +37,12 @@ fun LabelStatus(status: StatusPeminjaman) {
 @Composable
 fun KartuPeminjaman(item: Peminjaman) {
     Card(
-        modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp),
-        elevation = 3.dp,
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(vertical = 4.dp),
+        elevation = CardDefaults.cardElevation(
+            defaultElevation = 3.dp
+        ),
         shape = RoundedCornerShape(8.dp)
     ) {
         Column(modifier = Modifier.padding(16.dp)) {
@@ -47,12 +51,12 @@ fun KartuPeminjaman(item: Peminjaman) {
                 horizontalArrangement = Arrangement.SpaceBetween,
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                Text(text = item.idPeminjaman, style = MaterialTheme.typography.subtitle2)
+                Text(text = item.idPeminjaman, style = MaterialTheme.typography.titleSmall)
                 LabelStatus(status = item.status)
             }
             Spacer(modifier = Modifier.height(8.dp))
-            Text(text = item.buku.judul, style = MaterialTheme.typography.h6)
-            Text(text = "Peminjam: ${item.namaPeminjam}", style = MaterialTheme.typography.body2)
+            Text(text = item.buku.judul, style = MaterialTheme.typography.titleLarge)
+            Text(text = "Peminjam: ${item.namaPeminjam}", style = MaterialTheme.typography.bodyMedium)
         }
     }
 }

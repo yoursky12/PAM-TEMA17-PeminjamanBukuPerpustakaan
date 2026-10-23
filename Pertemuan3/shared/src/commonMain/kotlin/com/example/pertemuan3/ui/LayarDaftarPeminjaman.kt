@@ -3,7 +3,7 @@ package com.example.pertemuan3.ui
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.material.*
+import androidx.compose.material3.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.runtime.Composable
@@ -18,7 +18,7 @@ fun LayarDaftarPeminjaman() {
     Scaffold(
         topBar = { TopAppBar(title = { Text("Daftar Peminjaman Buku") }) },
         floatingActionButton = {
-            FloatingActionButton(onClick = { /* Belum berfungsi */ }) {
+            FloatingActionButton(onClick = { }) {
                 Icon(Icons.Default.Add, contentDescription = "Tambah Peminjaman")
             }
         }

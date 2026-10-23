@@ -1,4 +1,4 @@
-package com.example.pertemuan2.model
+package com.example.pertemuan3.model
 
 sealed class StatusPeminjaman(val keterangan: String) {
     object Diajukan : StatusPeminjaman("Pengajuan peminjaman sedang diproses")
