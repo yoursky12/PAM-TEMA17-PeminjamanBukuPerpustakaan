@@ -1,6 +1,6 @@
 # Peminjaman Buku Perpustakaan
 
-Proyek ini merupakan aplikasi berbasis **Compose Multiplatform (KMP)** untuk memenuhi tugas **Checkpoint Proyek Minggu 2**.
+Proyek ini merupakan aplikasi berbasis **Compose Multiplatform (KMP)** untuk memenuhi tugas **Checkpoint Proyek Minggu 3**.
 
 ## Tema 17
 - **Nama Tema:** Peminjaman Buku Perpustakaan
@@ -9,13 +9,13 @@ Proyek ini merupakan aplikasi berbasis **Compose Multiplatform (KMP)** untuk mem
 
 Berikut adalah hasil pengujian simulasi peminjaman buku.
 
-![Hasil Pengujian](C:\Users\Fadilla\StudioProjects\PAM-TEMA17-PeminjamanBukuPerpustakaan\Pertemuan2\screenshoot\hasil-pengujian.png)
+![Hasil Pengujian] <img width="491" height="722" alt="Screenshot 2026-10-23 232524" src="https://github.com/user-attachments/assets/3c44420a-cc44-4d7c-a09c-4a5fd7faf7aa" />
 
 
 ## Anggota Kelompok
-- **Nafisya Ghalia** - `124140100` (Membuat FakePeminjamanDataSource.kt)
-- **Frichintia Niken Gita Ntasyah** - `124140106` (Membuat Buku.kt dan StatusPeminjaman.kt)
-- **Olivia** - `124140034` (Membuat Pminjamaan.kt dan PeminjamanDataSource.kt)
-- **Fadilla Andia Putri** - `124140136` (Melakukan Run/MainRunner.kt dan README.md)
+- **Fadilla Andia Putri** - `124140136` `FakePeminjamanDataSource.kt` Menyiapkan 10 data dummy peminjaman buku dan logika *sorting* ID terbaru. 
+- **Frichintia Niken Gita Ntasyah** - `124140106`  `KartuPeminjaman.kt`  Membuat komponen UI `KartuPeminjaman` dan badge status `LabelStatus`. 
+- **Olivia** - `124140034` `LayarDaftarPeminjaman.kt` Menyusun tata letak utama (`Scaffold`), daftar scroll (`LazyColumn`), dan tombol `FAB`. 
+- **Nafisya Ghalia** - `124140100` Integrasi (`App.kt`) & Documentation Menghubungkan layar utama ke `App.kt`, dokumentasi `README.md`, dan pengujian UI. 
 
 
