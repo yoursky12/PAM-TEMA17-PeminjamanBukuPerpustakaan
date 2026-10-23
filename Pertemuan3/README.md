@@ -5,11 +5,9 @@ Proyek ini merupakan aplikasi berbasis **Compose Multiplatform (KMP)** untuk mem
 ## Tema 17
 - **Nama Tema:** Peminjaman Buku Perpustakaan
 
+
 ## Hasil Pengujian
-
-Berikut adalah hasil pengujian simulasi peminjaman buku.
-
-![Hasil Pengujian] <img width="491" height="722" alt="Screenshot 2026-10-23 232524" src="https://github.com/user-attachments/assets/3c44420a-cc44-4d7c-a09c-4a5fd7faf7aa" />
+<img width="491" height="722" alt="Screenshot 2026-10-23 232524" src="https://github.com/user-attachments/assets/3c44420a-cc44-4d7c-a09c-4a5fd7faf7aa" />
 
 
 ## Anggota Kelompok
