@@ -27,4 +27,5 @@ PAM-TEMA17-PeminjamanBukuPerpustakaan/
 ├── Pertemuan1/       # Modul pengerjaan Checkpoint Minggu 1
 ├── Pertemuan2/       # Modul pengerjaan Checkpoint Minggu 2
 ├── Pertemuan3/       # Modul pengerjaan Checkpoint Minggu 3
+├── Pertemuan4/       # Modul pengerjaan Checkpoint Minggu 4
 └── README.md         # Dokumentasi utama repositori
